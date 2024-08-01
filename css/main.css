@@ -1,0 +1,570 @@
+/*Ganeral*/
+
+body
+{
+    
+  
+
+
+   background-color: #F5F5F5;
+
+}
+
+/*header*/
+.header
+{
+    background-image: url('../images/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*navbar */
+.navbar .navbar-brand
+{
+    font-size: 2rem;
+    color: #fff;
+
+  
+}
+.header .overlay
+{
+
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-expand-lg .navbar-nav .nav-link 
+{
+   padding-inline:15px;
+}
+
+.nav-link
+{
+    color: #fff !important;
+}
+
+.navbar
+{
+    background-color: #040404;
+}
+.nav-item
+{
+    position: relative;
+    transition: all 1s;
+}
+
+.nav-item::after
+{
+    content: '';
+    width: 0%;
+    height: 30px;
+   
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    border-bottom: 2px solid #fff;
+    opacity: 0;
+    transition: all 1s;
+
+}
+
+
+
+.nav-item:hover:after
+{
+    width: 52%;
+    opacity: 1;
+}
+
+
+/*haeder caption*/
+.header-caption h1
+{
+    font-size: 5rem;
+
+
+
+
+    
+}
+
+.header-caption span::after
+{
+    content: '';
+    animation: typing 5s infinite ;
+    
+  
+
+}
+
+@keyframes typing {
+    
+    0%{content: 'D|';}
+    3%{content: 'De|';}
+    6%{content: 'Ded|';}  
+    9%{content: 'Desi|';}
+    12%{content: 'Desig|';}
+    15%{content: 'Design|';}
+    20%{content: 'Designe|';}
+    23%{content: 'Designer|';}
+    26%{content: 'Designe|';}
+    29%{content: 'Design|';}  
+    32%{content: 'Desig|';}
+    35%{content: 'Desi|';}
+    38%{content: 'Des|';}
+    41%{content: 'De|';}
+
+
+    44%{content: 'Dev|';}
+    47%{content: 'Devl|';}
+    50%{content: 'Devlo|';}  
+    53%{content: 'Devlop|';}
+    56%{content: 'Devlope|';}
+    59%{content: 'Devloper|';}
+
+
+    63%{content: 'p|';}
+    65%{content: 'ph|';}
+    68%{content: 'pho|';}  
+    71%{content: 'phot|';}
+    74%{content: 'photo|';}
+    77%{content: 'photog|';}
+    80%{content: 'photogr|';}
+    83%{content: 'photogra|';}
+    86%{content: 'photograp|';}
+    89%{content: 'photograph|';}  
+    92%{content: 'photographe|';}
+    95%{content: 'photographer|';}
+    98%{content: 'photographerr|';}
+    100%{content: 'photographerrrb|';}
+
+
+   
+}
+
+
+/*about me*/
+.peronal-info-image ul 
+{
+    list-style-type: none;
+}
+
+.peronal-info-image li
+{
+    color: #000;
+    font-size: 17px;
+ 
+}
+
+.peronal-info-image li span
+{
+    color: #4e4e4e
+    ;
+    font-size: 16px;
+  
+}
+
+.skills p
+{
+    font-size: 17;
+    color: #000;
+    
+}
+
+.progress
+{
+    border-radius: 2px;
+}
+
+.personal-info h2
+{
+    font-size: 32px;
+}
+
+.personal-info p
+{
+
+    color: #4e4e4e;
+  
+
+    font-size: 20px;
+    font-weight: 300;
+}
+.personal-info h2{
+    position: relative;
+    
+}
+
+.personal-info h2::after
+{
+    content: '';
+    position: absolute;
+width: 15%;
+height: 4px;
+background-color: #0078FF;
+top: 100%;
+left: 0;
+margin-top: 5px;
+
+}
+
+/*services*/
+
+.services-item .fa-regular,  .services-item .fa-solid{
+    width: 100px;
+    height: 100px;
+   
+    border: 7px solid #0078FF;
+    border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+   color: #000;
+
+    transition: all 1s;;
+  
+
+
+}
+
+
+.services-item
+{
+    transition:  all 1s;;
+}
+
+
+.services-item:hover  .fa-regular,  .services-item:hover  .fa-solid{
+  
+  
+  background-color:#0078FF ;
+  color: #fff;
+  box-shadow: 0px 0px 0px 10px  #CDE1F8;
+
+}
+
+.services-card p
+{
+    color: #4e4e4e;
+}
+
+.services-title p
+{
+    position: relative;
+}
+
+.services-title p::after
+{
+    content: '';
+    width: 3%;
+    height: 4px;
+    background-color:#0078FF ;
+  top: 100%;
+    position: absolute;
+    left: 48%;
+    margin-top: 10px;
+
+}
+
+/*counter ssction*/
+
+.counter
+{
+    background-image: url('../images/counters-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+ 
+    background-attachment: fixed;
+
+
+}
+
+
+
+.counter-icon 
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px  #CDE1F8;
+  
+}
+
+
+.counter .ovelay-counter
+{
+    background-color: rgb(0, 120, 255,.7);
+   
+}
+
+/*portfolio*/
+
+.card-title
+{
+    font-size: 1.3rem;
+}
+
+.card-body span
+{
+    font-size: 13px;
+
+}
+
+.icon-card
+{
+    width: 40px;
+    height: 40px;
+    border: 3px solid #0078FF ;
+    border-radius: 50%;
+    
+
+}
+.portfolio .card
+{
+    transition:transform 1s ;
+    overflow: hidden;
+}
+.portfolio .card-image
+{
+    overflow: hidden;
+}
+
+.portfolio .card img
+{
+    transition:transform 1s ;
+  
+}
+
+.portfolio .card:hover img
+{
+    transform: scale(1.5,1.5);
+}
+
+
+/*cursoal*/
+
+.parent
+{
+    background-image: url("../images/overlay.jpg");
+    background-size: cover;
+
+    background-position: top center;
+    background-attachment: fixed;
+    height: 80%;
+}
+
+
+.parent .overlay
+{
+    background-color: rgb(0, 120, 255,.7);
+    height: 100%;
+
+}
+
+
+
+.curosal-card p
+{
+    font-size: 1.2rem;
+    width: 95%;
+    margin: auto;
+}
+
+.carousel-indicators [data-bs-target] 
+{
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+}
+
+.carousel-indicators
+{
+    bottom: 0px;
+}
+
+/*Blogs*/
+
+.Blog .card .card-body a , .card-info a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.Blog .card .card-body
+{
+    text-align: start;
+}
+
+.services-title p
+{
+    color: #4e4e4e;
+}
+
+
+.card-footer img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.Blog .card-image
+{
+    position: relative;
+}
+
+.card .card-image .card-poster
+{
+    background-color: #0078FF;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+ 
+}
+
+.card-body h5
+{
+    transition: color 1s;;
+}
+
+.card-body h5:hover
+{
+    color: #0078FF;
+}
+.card-info span
+{
+    transition: color 1s;;
+
+}
+
+.card-info span:hover
+{
+    color: #0078FF;
+}
+
+.card-body p
+{
+    width: 86%;
+}
+
+
+
+/*section message*/
+
+.message
+{
+    background-image: url("../images/overlay.jpg");
+    background-size: cover;
+
+    background-position: top center;
+    background-attachment: fixed;
+
+}
+
+
+.message-ovelay
+{
+    background-color: rgb(0, 120, 255,.7);
+ 
+}
+
+.message h2::after
+{
+    content: '';
+    width:15%;
+    height: 3px;
+    background-color: #0078FF;
+    position: absolute;
+    top: 110%;
+    left: 2px;
+
+}
+
+.form-control 
+{
+    padding: 10px;
+}
+
+
+
+.message-info p
+{
+    color: #4e4e4e;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+ul 
+{
+    list-style-type: none;
+ 
+}
+
+.message-icon .fa-solid
+{
+    color: #0078FF;
+}
+
+.message-icon span
+{
+    color: #4e4e4e;
+    
+
+}
+
+.icon-social .facebook ,.icon-social .instagram ,.twitter ,.linkedin
+{
+    width: 40px;
+    height: 40px;
+    border: 3px solid  #0078FF;
+    border-radius: 50%;
+}
+
+.facebook ,.facebook .fa-brands ,.instagram .fa-brands ,.twitter .fa-brands
+
+.linkedin .fa-brands
+{
+    transition:  all 1s;
+}
+
+.facebook:hover ,.instagram:hover,.twitter:hover,.linkedin:hover
+{
+    background-color:#0078FF ;
+    border: 3px solid  #CDE1F8;
+
+    
+}
+
+.facebook:hover .fa-brands  ,.instagram:hover .fa-brands
+
+,.twitter:hover .fa-brands ,.linkedin:hover .fa-brands
+{
+    color: #fff;
+
+}
+.btn
+{
+    transition: box-shadow 1s ;
+}
+
+.btn:hover
+{
+    box-shadow: 0px 0px 0px 5px #CDE1F8;
+}
+
+.footer
+{
+    background-color: #0062D3;
+}
+
+/*footer*/
+.footer
+{
+    box-shadow: 10px 10px 10px 5px #000;
+
+}
